@@ -1,0 +1,48 @@
+{
+  "timeZone": "Asia/Taipei",
+  "exceptionLogging": "STACKDRIVER",
+  "sheets": {
+    "macros": [
+      {
+        "menuName": "匯入空氣品質資料",
+        "functionName": "importAirQualityData"
+      },
+      {
+        "menuName": "寫入預覽(AQI_Preview)",
+        "functionName": "writeApiPreviewToSheet"
+      },
+      {
+        "menuName": "重新整理資料",
+        "functionName": "refreshData"
+      },
+      {
+        "menuName": "篩選縣市資料",
+        "functionName": "getCountyAirQuality"
+      },
+      {
+        "menuName": "設定 API Key",
+        "functionName": "setApiKey"
+      },
+      {
+        "menuName": "測試 API Key",
+        "functionName": "testApiKey"
+      },
+      {
+        "menuName": "清除 API Key",
+        "functionName": "clearApiKey"
+      },
+      {
+        "menuName": "列印 API 回應",
+        "functionName": "printApiResponse"
+      },
+      {
+        "menuName": "列印工作表資料",
+        "functionName": "printSheetRows"
+      },
+      {
+        "menuName": "列印完整 API 紀錄",
+        "functionName": "printApiRecordsFull"
+      }
+    ]
+  }
+}
